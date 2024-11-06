@@ -19,6 +19,7 @@ class Solution {
             if (nums[nums[i]] == nums[i])
                 return nums[i];
             swap(nums[i], nums[nums[i]]);
+            cout<<"123"<<endl;
         }
         return -1;
     }
